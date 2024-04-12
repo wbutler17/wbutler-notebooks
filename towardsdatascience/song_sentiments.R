@@ -69,8 +69,8 @@ hist(songs2$Year[songs2$mean_sent_line>0.25], xlab = 'year', ylab = 'count', mai
 # use Spotify for additional data about each song
 devtools::install_github('charlie86/spotifyr')
 install.packages('spotifyr')
-Sys.setenv(SPOTIFY_CLIENT_ID = '145770a0590f452a8baf0c6ade566d48')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'b10c50f20e3246a58a9c7090fa6c5978')
+Sys.setenv(SPOTIFY_CLIENT_ID = 'xxxxxx')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = 'xxxxxx')
 
 access_token <- get_spotify_access_token()
 
